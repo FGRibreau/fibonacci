@@ -1,19 +1,9 @@
 {
   "name": "fibonacci-golden-ratio",
   "version": "0.0.1",
-  "private": true,
   "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
   "engines": {
     "node": "6"
-  },
-  "nyc": {
-    "exclude": [
-      "node_modules",
-      "dist",
-      "coverage",
-      "webpack.config.js",
-      "**/**.test.js"
-    ]
   },
   "scripts": {
     "test": "mocha $(find src -name '*.test.js')",
